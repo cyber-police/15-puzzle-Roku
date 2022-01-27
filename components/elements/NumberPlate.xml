@@ -1,0 +1,30 @@
+<component
+    name="NumberPlate"
+    extends="Group">
+    <script
+        type="text/brightscript"
+        uri="pkg:/components/elements/NumberPlate.brs" />
+
+    <interface>
+        <field
+            id="data"
+            type="assocarray"
+            onChange="onUpdate" />
+
+        <field
+            id="posterColor"
+            type="color"
+            onChange="onUpdateColor" />
+
+        <field
+            id="direction"
+            type="string"
+            onChange="onUpdateDirection"
+            alwaysNotify="true" />
+    </interface>
+
+    <children>
+        <Poster id="posterPlate" />
+    </children>
+
+</component>

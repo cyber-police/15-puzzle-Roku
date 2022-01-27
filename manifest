@@ -1,0 +1,14 @@
+title=Game
+
+major_version=1
+minor_version=0
+build_version=0
+
+mm_icon_focus_hd=pkg:/images/stains.jpg
+
+splash_color=#000000
+
+requires_widevine_drm=1
+requires_widevine_version=1.0
+
+ui_resolutions=hd

@@ -1,0 +1,15 @@
+<component
+    name="GameScreen"
+    extends="Group">
+    <script
+        type="text/brightscript"
+        uri="pkg:/components/screens/GameScreen.brs" />
+
+    <interface>
+        <field
+            id="openWinScreen"
+            type="boolean"
+            alwaysNotify="true" />
+    </interface>
+
+</component>

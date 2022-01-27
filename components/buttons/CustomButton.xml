@@ -1,0 +1,21 @@
+<component
+    name="CustomButton"
+    extends="Group">
+
+    <interface>
+        <field
+            id="buttonName"
+            type="string"
+            onChange="onButtonName" />
+
+    </interface>
+
+    <children>
+        <Rectangle id="background" />
+        <Label id="buttonText" />
+    </children>
+
+    <script
+        type="text/brightscript"
+        uri="pkg:/components/buttons/CustomButton.brs" />
+</component>

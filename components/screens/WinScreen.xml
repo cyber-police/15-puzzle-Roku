@@ -1,0 +1,36 @@
+<component
+    name="WinScreen"
+    extends="Group">
+    <script
+        type="text/brightscript"
+        uri="pkg:/components/screens/WinScreen.brs" />
+
+    <interface>
+        <field
+            id="restart"
+            type="boolean"
+            alwaysNotify="true" />
+        <field
+            id="exit"
+            type="boolean"
+            alwaysNotify="true" />
+
+        <field
+            id="state"
+            type="boolean"
+            alwaysNotify="true"
+            onChange="onStateChange" />
+    </interface>
+
+    <children>
+        <Rectangle id="background_full" />
+        <Rectangle id="background" />
+        <Rectangle id="background2" />
+
+        <LayoutGroup id="buttonsGroup">
+            <CustomButton id="restartButton" />
+            <CustomButton id="exitButton" />
+        </LayoutGroup>
+    </children>
+
+</component>

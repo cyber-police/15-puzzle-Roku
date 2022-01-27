@@ -1,0 +1,15 @@
+<component
+    name="MainScene"
+    extends="Scene">
+    <script
+        type="text/brightscript"
+        uri="pkg:/components/MainScene.brs" />
+
+    <interface>
+        <field
+            id="appExit"
+            type="boolean"
+            alwaysNotify="true" />
+    </interface>
+
+</component>
